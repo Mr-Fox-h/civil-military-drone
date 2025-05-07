@@ -39,7 +39,7 @@ train_tensor = train_tensor / 255
 test_tensor = test_tensor / 255
 
 ### Class names of data
-class_name = ['Civil', 'Militray']
+class_name = ['Civil', 'Militray', 'Drone']
 
 ### CNN
 model = tf.keras.Sequential()
